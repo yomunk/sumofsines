@@ -12,7 +12,7 @@ void setup() {
 }
 
 void loop() {
-  time = millis()/1000;
+  time = millis()/1000.;
   if (step_time[i]<time) {
     digitalWrite(direction, step_direction[i]);
     digitalWrite(step, LOW);
